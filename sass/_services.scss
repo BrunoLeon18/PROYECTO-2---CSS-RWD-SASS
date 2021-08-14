@@ -1,0 +1,61 @@
+/*
+SERVICES
+*/
+.services{
+
+        > div{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            width: 65%;
+            margin: auto;
+            grid-gap: 15px;
+        }
+         h2{
+            margin-top: 80px;
+         }
+        
+        .item div{
+            background:#00CF95;
+            font-size: 2.4rem;
+            color: #fff;
+            font-family: poppins1;
+            font-weight: bold;
+            height: 220px;
+            border:5px solid #D1FFA2;
+            border-radius: 8px;
+            position: relative;
+
+            h3{
+                background: #D1FFA2;
+                position: absolute;
+                color: #5A0CB0;
+                right: -1px;
+                bottom: 35px;
+                width: 80%;
+                padding: 10px;
+                border-top-left-radius: 8px;
+                border-bottom-left-radius: 8px;
+                text-align: center;
+            }
+
+            svg{
+                position: absolute;
+                top: 20px;
+                left: 20px;
+            }
+
+            &:hover{
+                border-color: #5A0CB0;
+                cursor: pointer;
+            }
+
+            &:hover h3{
+                background: #5A0CB0;
+                color: #fff;
+            }
+
+            &:hover svg {
+                color: #5A0CB0;
+            }
+        }
+}

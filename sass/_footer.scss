@@ -1,0 +1,97 @@
+/*
+FOOTER
+*/
+.footer{
+    margin-top: 100px;
+
+    .box-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+
+        div{
+            position: absolute;
+            width: 42px;
+            height: 42px;
+            left: 0;
+            transform: rotate(45deg);
+        }
+
+        .yellow {
+            background-color: #d1ffa2;
+            left: -5px;
+        }
+
+        .blue {
+            background-color: #0098ef;
+            left: -10px;
+         }
+
+         .green{
+            background-color: #00cf95;
+            left: -15px;
+        }
+
+        .purple{
+            background-color: #6d0ad3;
+            left: -20px;
+        }
+
+        .logo {
+            position: absolute;
+            left: 5px;
+            top: 38px;
+         }
+    }
+
+    .box-nav ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li{
+        font-family: raleway;
+        font-size: 1.4rem;
+    }
+
+    a{
+        display: block;
+        font-weight: bold;
+        padding: 10px 20px;
+        color:#000;
+
+        &:hover{
+            font-weight: bold;
+            color: #832FDA;
+            border-bottom: 5px solid #832FDA;
+        }
+
+        &:active{
+            color: #00CF95;
+        }
+    }
+
+    h2{
+        font-size: 2.8rem;
+        line-height: 3.5rem;
+        font-family: raleway;
+        color: #00CF95;
+        text-align: center;
+        width: 60%;
+        margin-left: 187px;
+    }
+
+    .awesome img{
+        margin-right: 10px;
+    }
+
+    p{
+        font-family: raleway;
+        padding: 20px;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+}
+
