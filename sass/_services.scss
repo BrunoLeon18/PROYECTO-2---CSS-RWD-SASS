@@ -31,8 +31,7 @@ SERVICES
                 color: #5A0CB0;
                 right: -1px;
                 bottom: 35px;
-                width: 80%;
-                padding: 10px;
+                padding: 10px 50px 10px 28px;
                 border-top-left-radius: 8px;
                 border-bottom-left-radius: 8px;
                 text-align: center;
@@ -47,15 +46,15 @@ SERVICES
             &:hover{
                 border-color: #5A0CB0;
                 cursor: pointer;
-            }
 
-            &:hover h3{
-                background: #5A0CB0;
-                color: #fff;
-            }
+                h3{
+                    background: #5A0CB0;
+                    color: #fff;
+                }
 
-            &:hover svg {
-                color: #5A0CB0;
-            }
-        }
+                svg {
+                    color: #5A0CB0;
+             }
+         }     
+     }
 }

@@ -1,0 +1,40 @@
+nav{
+    align-self: center;
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li{
+        padding: 10px 10px;
+        font-family: raleway;
+        font-size: 1.4rem;
+    }
+
+    a{
+        font-weight: bold;
+        padding: 5px 0px;
+        color:#000;
+    
+        &:hover{
+            font-weight: bold;
+            color: #832FDA;
+            border-bottom: 5px solid #832FDA;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    
+        &:active{
+            color: #00CF95;   
+            border-bottom: 5px solid #00CF95;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
+}
+
+
+
+
+

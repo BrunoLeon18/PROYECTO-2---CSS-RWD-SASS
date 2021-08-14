@@ -55,56 +55,61 @@ HEADER
   display: -ms-flexbox;
   display: flex;
   padding: 30px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   margin-top: 18px;
   margin-bottom: 40px;
   position: relative;
 }
 
-.header .logo,
-.header .rect4,
-.header .rect3,
-.header .rect2,
-.header .rect1,
-.header nav {
+.header div {
   position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
-.header .rect4 {
-  top: 0px;
-  left: 2px;
+.header div:hover {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
-.header .rect3 {
-  top: 0px;
-  left: 7px;
+.header .yellow {
+  background-color: #d1ffa2;
+  left: 25px;
 }
 
-.header .rect2 {
-  top: 0px;
+.header .blue {
+  background-color: #0098ef;
+  left: 20px;
+}
+
+.header .green {
+  background-color: #00cf95;
+  left: 15px;
+}
+
+.header .purple {
+  background-color: #6d0ad3;
   left: 10px;
 }
 
-.header .rect1 {
-  top: 0px;
-  left: 14px;
-}
-
 .header .logo {
-  top: 15px;
-  left: 34px;
+  position: absolute;
+  left: 35px;
+  top: 35px;
 }
 
-.header nav {
-  right: 0;
+nav {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
-.header ul {
+nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -113,26 +118,31 @@ HEADER
           justify-content: space-between;
 }
 
-.header li {
+nav li {
   padding: 10px 10px;
   font-family: raleway;
   font-size: 1.4rem;
 }
 
-.header a {
+nav a {
   font-weight: bold;
   padding: 5px 0px;
   color: #000;
 }
 
-.header a:hover {
+nav a:hover {
   font-weight: bold;
   color: #832FDA;
   border-bottom: 5px solid #832FDA;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
-.header a:active {
+nav a:active {
   color: #00CF95;
+  border-bottom: 5px solid #00CF95;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 /*
@@ -373,8 +383,7 @@ SERVICES
   color: #5A0CB0;
   right: -1px;
   bottom: 35px;
-  width: 80%;
-  padding: 10px;
+  padding: 10px 50px 10px 28px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   text-align: center;
@@ -646,29 +655,34 @@ FOOTER
           transform: rotate(45deg);
 }
 
+.footer .box-footer div:hover {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
 .footer .box-footer .yellow {
   background-color: #d1ffa2;
-  left: -5px;
+  left: 25px;
 }
 
 .footer .box-footer .blue {
   background-color: #0098ef;
-  left: -10px;
+  left: 20px;
 }
 
 .footer .box-footer .green {
   background-color: #00cf95;
-  left: -15px;
+  left: 15px;
 }
 
 .footer .box-footer .purple {
   background-color: #6d0ad3;
-  left: -20px;
+  left: 10px;
 }
 
 .footer .box-footer .logo {
   position: absolute;
-  left: 5px;
+  left: 35px;
   top: 38px;
 }
 

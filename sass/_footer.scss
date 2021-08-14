@@ -16,31 +16,35 @@ FOOTER
             height: 42px;
             left: 0;
             transform: rotate(45deg);
+
+            &:hover{
+                transform: rotate(90deg);
+            }
         }
 
         .yellow {
             background-color: #d1ffa2;
-            left: -5px;
+            left: 25px;
         }
 
         .blue {
             background-color: #0098ef;
-            left: -10px;
+            left: 20px;
          }
 
          .green{
             background-color: #00cf95;
-            left: -15px;
+            left: 15px;
         }
 
         .purple{
             background-color: #6d0ad3;
-            left: -20px;
+            left: 10px;
         }
 
         .logo {
             position: absolute;
-            left: 5px;
+            left: 35px;
             top: 38px;
          }
     }
